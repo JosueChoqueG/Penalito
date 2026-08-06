@@ -1,4 +1,4 @@
-name: Publish to Hostinger
+name: Publish to CPanel
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
 
 jobs:
   deploy:
-    name: Deploy to Hostinger via FTP
+    name: Deploy to cPanel via FTP
     runs-on: ubuntu-latest
     
     steps:
@@ -36,6 +36,8 @@ jobs:
       - name: Install PHP dependencies
         run: composer install --no-dev --optimize-autoloader --no-interaction --prefer-dist
 
+      # Ya NO se corre config:cache / route:cache / view:cache aquí
+
       - name: FTP-Deploy-Action
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
@@ -47,24 +49,23 @@ jobs:
           server-dir: ./public_html/
           timeout: 60000
           exclude: |
-            **/.git*
-            **/.git/**
-            **/node_modules/**
-            **/tests/**
-            **/.github/**
-            .env
-            .env.*
-            **/.vscode/**
-            README.md
-            composer.json
-            composer.lock
-            package.json
-            package-lock.json
-            vite.config.js
-            tailwind.config.js
-            postcss.config.js
-            .editorconfig
-            .gitignore
-            .env.example
-            bootstrap/cache/*.php
-
+            - .git*
+            - .git/**
+            - node_modules/**
+            - tests/**
+            - .github/**
+            - .env
+            - .env.*
+            - .vscode/**
+            - README.md
+            - composer.json
+            - composer.lock
+            - package.json
+            - package-lock.json
+            - vite.config.js
+            - tailwind.config.js
+            - postcss.config.js
+            - .editorconfig
+            - .gitignore
+            - .env.example
+            - bootstrap/cache/*.php
