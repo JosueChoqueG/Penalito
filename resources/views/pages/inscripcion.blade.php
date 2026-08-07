@@ -134,7 +134,7 @@
 								<button type="button" class="btn btn-outline-secondary w-50 py-3 rounded-pill" id="btnBackTo1" style="border-color: rgba(15, 19, 86, 0.2); color: #0f1356; font-weight: 700; font-family: 'Outfit', sans-serif; font-size: 13px;">
 									<i class="fa-solid fa-arrow-left me-1"></i> Atrás
 								</button>
-								<button type="button" class="btn btn-gold w-100 py-3 rounded-pill text-uppercase font-weight-bold" id="btnSendReceipt" style="background-color: #0ea52eff; color: #fff; border: none; font-family: 'Outfit', sans-serif; font-size: 13px; box-shadow: 0 4px 15px rgba(197, 168, 128, 0.25);">
+								<button type="button" class="btn btn-gold w-100 py-3 rounded-pill text-uppercase font-weight-bold" id="btnSendReceipt" style="background-color: #0ea52eff; color: #fff; border: none; font-family: 'Outfit', sans-serif; font-size: 13px; box-shadow: 0 4px 15px rgba(14, 200, 26, 0.25);">
 									Enviar Comprobante <i class="fa-brands fa-whatsapp ms-1"></i>
 								</button>
 							</div>
@@ -212,7 +212,7 @@ Mis datos de registro son:
 
 Adjunto la captura/voucher de pago correspondiente.`;
 
-				const whatsappUrl = `https://wa.me/51914159947?text=${encodeURIComponent(text)}`;
+				const whatsappUrl = `https://wa.me/51997370339?text=${encodeURIComponent(text)}`;
 				
 				// Abrir whatsapp en pestaña nueva
 				window.open(whatsappUrl, '_blank');
