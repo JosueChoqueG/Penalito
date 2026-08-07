@@ -387,10 +387,13 @@
 	<script src="{{ asset('assets') }}/js/modal.js"></script>
 
 	<!-- Botón Flotante de WhatsApp -->
-	<a href="https://wa.me/51997370339?text=Hola,%20quiero%20más%20información." class="whatsapp-float" target="_blank" aria-label="Contacto por WhatsApp">
-		<i class="fa-brands fa-whatsapp whatsapp-icon"></i>
-		<span class="whatsapp-tooltip">¡Más información al WhatsApp!</span>
-	</a>
+<a href="https://wa.me/51997370339?text=Hola,%20quiero%20más%20información:%0A%E2%9C%93%20Cursos.%0A%E2%9C%93%20Diplomado.%0A%E2%9C%93%20Congreso."
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Contacto por WhatsApp">
+    <i class="fa-brands fa-whatsapp whatsapp-icon"></i>
+    <span class="whatsapp-tooltip">¡Más información al WhatsApp!</span>
+</a>
 
 	<!-- Botón Flotante de Inscripción -->
 	<a href="{{ url('/') }}/inscripcion" class="inscription-float" aria-label="Inscripción en Línea">
