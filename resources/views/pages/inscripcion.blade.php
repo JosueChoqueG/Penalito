@@ -19,7 +19,7 @@
 			<div class="col-lg-6 col-md-8 col-sm-12">
 				
 				<!-- Main Registration Card -->
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden" style="border-radius: 16px; border: 3px solid #c5a880 !important;">
+				<div class="card border-0 shadow-lg rounded-4 overflow-hidden" style="border-radius: 16px; border: 3px solid #a51909ff !important;">
 					<div class="p-4 p-md-5 bg-white position-relative">
 						
 						<!-- Logo Header -->

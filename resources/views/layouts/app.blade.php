@@ -95,11 +95,11 @@
 									<div class="navbar-collapse collapse clearfix" id="navbarSupportedContent">
 										<ul class="navigation clearfix">
 											
-											<li>
+											<!--li>
 												<a href="{{ url('/') }}/">
 													<i class="fa-solid fa-house"></i>Inicio
 												</a>
-											</li>
+											</li -->
 
 											<li>
 												<a href="{{ url('/') }}/about">
@@ -109,7 +109,7 @@
 
 											<li>
 												<a href="{{ url('/') }}/about#equipo">
-													<i class="fa-solid fa-users"></i>Nuestro equipo
+													<i class="fa-solid fa-users"></i>Congreso
 												</a>
 											</li>
 
@@ -119,15 +119,40 @@
 												</a>
 											</li>
 
-											<li>
-												<a href="{{ url('/') }}/capacitacion#cursos">
-													<i class="fa-solid fa-book-bookmark"></i>Cursos
+											<li class="menu-item-has-children">
+												<a href="{{ url('/') }}/#">
+													<i class="fa-solid fa-book-bookmark"></i>
+													Cursos
+													<i class="fa-solid fa-chevron-down"></i>
 												</a>
+
+												<ul class="sub-menu">
+													<li>
+														<a href="{{ url('/') }}/#">
+															DERECHO PROCESAL PENAL
+														</a>
+													</li>
+													<li>
+														<a href="{{ url('/') }}/#">
+															DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL
+														</a>
+													</li>
+													<li>
+														<a href="{{ url('/') }}/#">
+															II CONGRESO REGIONAL DE ABOGADOS PENALISTAS DE APURIMAC
+														</a>
+													</li>
+												</ul>
 											</li>
 
 											<li>
 												<a href="{{ url('/') }}/inscripcion">
 													<i class="fa-solid fa-file-signature"></i>Inscripción
+												</a>
+											</li>
+											<li>
+												<a href="{{ url('/') }}/libros">
+													<i class="fa-solid fa-book"></i>Libros
 												</a>
 											</li>
 
