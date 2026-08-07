@@ -61,7 +61,9 @@
 									<label for="regCurso" class="form-label fw-bold text-dark" style="font-size: 13px;">Especialidad de Interés</label>
 									<select id="regCurso" class="form-select py-2 px-3" style="border-radius: 8px; border: 1px solid rgba(15, 19, 86, 0.12); background-color: #f8fafc; font-size: 14px;" required>
 										<option value="" disabled selected>Selecciona una opción</option>
-										<option value="CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL">CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL</option>
+										<option value="CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL">CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL S/30</option>
+										<option value="DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL">DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL S/200</option>
+										<option value="II CONGRESO REGIONAL DE ABOGADOS PENALISTAS DE APURIMAC">II CONGRESO REGIONAL DE ABOGADOS PENALISTAS DE APURIMAC S/50</option>
 									</select>
 								</div>
 
@@ -132,7 +134,7 @@
 								<button type="button" class="btn btn-outline-secondary w-50 py-3 rounded-pill" id="btnBackTo1" style="border-color: rgba(15, 19, 86, 0.2); color: #0f1356; font-weight: 700; font-family: 'Outfit', sans-serif; font-size: 13px;">
 									<i class="fa-solid fa-arrow-left me-1"></i> Atrás
 								</button>
-								<button type="button" class="btn btn-gold w-100 py-3 rounded-pill text-uppercase font-weight-bold" id="btnSendReceipt" style="background-color: #c5a880; color: #fff; border: none; font-family: 'Outfit', sans-serif; font-size: 13px; box-shadow: 0 4px 15px rgba(197, 168, 128, 0.25);">
+								<button type="button" class="btn btn-gold w-100 py-3 rounded-pill text-uppercase font-weight-bold" id="btnSendReceipt" style="background-color: #0ea52eff; color: #fff; border: none; font-family: 'Outfit', sans-serif; font-size: 13px; box-shadow: 0 4px 15px rgba(197, 168, 128, 0.25);">
 									Enviar Comprobante <i class="fa-brands fa-whatsapp ms-1"></i>
 								</button>
 							</div>
