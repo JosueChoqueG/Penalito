@@ -387,7 +387,7 @@
 	<script src="{{ asset('assets') }}/js/modal.js"></script>
 
 	<!-- Botón Flotante de WhatsApp -->
-	<a href="https://wa.me/51914159947?text=Hola,%20quiero%20más%20información." class="whatsapp-float" target="_blank" aria-label="Contacto por WhatsApp">
+	<a href="https://wa.me/51997370339?text=Hola,%20quiero%20más%20información." class="whatsapp-float" target="_blank" aria-label="Contacto por WhatsApp">
 		<i class="fa-brands fa-whatsapp whatsapp-icon"></i>
 		<span class="whatsapp-tooltip">¡Más información al WhatsApp!</span>
 	</a>
