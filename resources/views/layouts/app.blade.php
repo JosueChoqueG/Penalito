@@ -107,20 +107,36 @@
 												</a>
 											</li>
 
-											<li>
-												<a href="{{ url('/') }}/about#equipo">
+											<li class="menu-item-has-children">
+												<a>
 													<i class="fa-solid fa-users"></i>Congreso
+													<i class="fa-solid fa-chevron-down"></i>
 												</a>
-											</li>
-
-											<li>
-												<a href="{{ url('/') }}/capacitacion#diplomados">
-													<i class="fa-solid fa-certificate"></i>Diplomados
-												</a>
+												<ul class="sub-menu">
+													<li>
+														<a href="{{ url('/') }}/#">
+															II CONGRESO REGIONAL DE ABOGADOS PENALISTAS DE APURIMAC
+														</a>
+													</li>
+												</ul>
 											</li>
 
 											<li class="menu-item-has-children">
-												<a href="{{ url('/') }}/#">
+												<a>
+													<i class="fa-solid fa-certificate"></i>Diplomados
+													<i class="fa-solid fa-chevron-down"></i>
+												</a>
+												<ul class="sub-menu">
+													<li>
+														<a href="{{ url('/') }}/#">
+															DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL
+														</a>
+													</li>
+												</ul>
+											</li>
+
+											<li class="menu-item-has-children">
+												<a>
 													<i class="fa-solid fa-book-bookmark"></i>
 													Cursos
 													<i class="fa-solid fa-chevron-down"></i>
@@ -130,16 +146,6 @@
 													<li>
 														<a href="{{ url('/') }}/#">
 															DERECHO PROCESAL PENAL
-														</a>
-													</li>
-													<li>
-														<a href="{{ url('/') }}/#">
-															DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL
-														</a>
-													</li>
-													<li>
-														<a href="{{ url('/') }}/#">
-															II CONGRESO REGIONAL DE ABOGADOS PENALISTAS DE APURIMAC
 														</a>
 													</li>
 												</ul>
