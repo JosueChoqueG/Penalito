@@ -73,7 +73,7 @@
 							<div class="logo-box d-flex align-items-center flex-wrap">
 								<div>
 									<a href="{{ url('/') }}/">
-										<img src="{{ asset('assets') }}/images/logo1.png" alt="CJP Penalito Logo" style="max-height: 72px; width: auto;">
+										<img src="{{ asset('assets') }}/images/logo_penalito.jpeg" alt="CJP Penalito Logo" style="max-height: 72px; width: auto;">
 									</a>
 								</div>
 							</div>
