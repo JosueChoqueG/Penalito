@@ -156,10 +156,19 @@
 													<i class="fa-solid fa-file-signature"></i>Inscripción
 												</a>
 											</li>
-											<li>
-												<a href="{{ url('/') }}/libros">
-													<i class="fa-solid fa-book"></i>Libros
-												</a>
+											<li class="menu-item-has-children"> 
+												<a><i class="fa-solid fa-book"></i> Libros <i class="fa-solid fa-chevron-down"></i></a> 
+												<ul class="sub-menu"> 
+													<li><a href="{{ url('/') }}/#">Derecho Constitucional</a></li> 
+													<li><a href="{{ url('/') }}/#">Derecho Procesal Penal</a></li> 
+													<li><a href="{{ url('/') }}/#">Derecho Penal</a></li> 
+													<li><a href="{{ url('/') }}/#">Derecho Policial</a></li> 
+													<li><a href="{{ url('/') }}/#">Criminologia</a></li> 
+													<li><a href="{{ url('/') }}/#">Medicina Forense</a></li> 
+													<li><a href="{{ url('/') }}/#">Miscelaneas Juridicas</a></li> 
+													<li><a href="{{ url('/') }}/#">Diccionarios Jurídicos</a></li> 
+													<li><a href="{{ url('/') }}/#">Modelos de escritos</a></li> 
+												</ul> 
 											</li>
 
 											<li>

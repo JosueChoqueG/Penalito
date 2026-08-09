@@ -375,7 +375,7 @@
 								<img src="{{ asset('assets') }}/images/libros/libro_forense.jpg" alt="Libro Medicina Forense" class="library-img">
 								<div class="library-hover-overlay">
 									<a href="#" class="btn btn-gold trigger-inscription" data-plan="Medicina Forense">
-										Solicitar Descarga <i class="fa-solid fa-download ms-1"></i>
+										Inscripción <i class="fa-solid fa-download ms-1"></i>
 									</a>
 								</div>
 							</div>
@@ -388,7 +388,7 @@
 								<img src="{{ asset('assets') }}/images/libros/libro_procesal_penal.jpg" alt="Libro Derecho Procesal Penal" class="library-img">
 								<div class="library-hover-overlay">
 									<a href="#" class="btn btn-gold trigger-inscription" data-plan="Derecho Penal y Procesal Penal">
-										Solicitar Descarga <i class="fa-solid fa-download ms-1"></i>
+										Inscripción <i class="fa-solid fa-download ms-1"></i>
 									</a>
 								</div>
 							</div>
@@ -401,7 +401,7 @@
 								<img src="{{ asset('assets') }}/images/libros/libro_derecho_policial.jpg" alt="Libro Derecho Policial" class="library-img">
 								<div class="library-hover-overlay">
 									<a href="#" class="btn btn-gold trigger-inscription" data-plan="Derecho Policial e Intervenciones">
-										Solicitar Descarga <i class="fa-solid fa-download ms-1"></i>
+										Inscripción <i class="fa-solid fa-download ms-1"></i>
 									</a>
 								</div>
 							</div>
@@ -414,7 +414,7 @@
 								<img src="{{ asset('assets') }}/images/libros/modelos_escritos.jpg" alt="Modelos de Escritos" class="library-img">
 								<div class="library-hover-overlay">
 									<a href="#" class="btn btn-gold trigger-inscription" data-plan="Derecho Penal y Procesal Penal">
-										Solicitar Descarga <i class="fa-solid fa-download ms-1"></i>
+										Inscripción <i class="fa-solid fa-download ms-1"></i>
 									</a>
 								</div>
 							</div>
@@ -427,7 +427,7 @@
 								<img src="{{ asset('assets') }}/images/libros/libro_diccionario.jpg" alt="Diccionarios Jurídicos" class="library-img">
 								<div class="library-hover-overlay">
 									<a href="#" class="btn btn-gold trigger-inscription" data-plan="Derecho Penal y Procesal Penal">
-										Solicitar Descarga <i class="fa-solid fa-download ms-1"></i>
+										Inscripción <i class="fa-solid fa-download ms-1"></i>
 									</a>
 								</div>
 							</div>
@@ -440,7 +440,7 @@
 								<img src="{{ asset('assets') }}/images/libros/libro_miscelaneas.jpg" alt="Misceláneas Jurídicas" class="library-img">
 								<div class="library-hover-overlay">
 									<a href="#" class="btn btn-gold trigger-inscription" data-plan="Derecho Constitucional y Procesal Const.">
-										Solicitar Descarga <i class="fa-solid fa-download ms-1"></i>
+										Inscripción <i class="fa-solid fa-download ms-1"></i>
 									</a>
 								</div>
 							</div>

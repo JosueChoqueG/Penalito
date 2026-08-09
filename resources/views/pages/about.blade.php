@@ -41,7 +41,7 @@
 					<div class="about-four_content-outer">
 						<div class="sec-title title-anim">
 							<div class="sec-title_title">Sobre nosotros</div>
-							<h2 class="sec-title_heading">Explore nuestro viaje en dogmática constitucional y penal</h2>
+							<h2 class="sec-title_heading">PORTAL JURÍDICO</h2>
 							<div class="sec-title_text">Somos un equipo de profesionales dedicados al derecho constitucional, derecho penal, medicina forense, criminalística, criminología, derechos policiales e intervenciones policiales. Con años de experiencia, este equipo de profesionales tiene el propósito de compartir sus ideas, conocimientos y experiencia profesional.</div>
 						</div>
 						<div class="row clearfix">
@@ -52,8 +52,8 @@
 									<div class="about-four_block-icon">
 										<i class="icon-controlxpert_svgrepocom-2"></i>
 									</div>
-									<h5 class="about-four_block-title">Historial probado</h5>
-									<div class="about-four_block-text">Tenemos un historial exitoso en actividades académicas y capacitaciones.</div>
+									<h5 class="about-four_block-title">Historial</h5>
+									<div class="about-four_block-text">Nació en la Región Apurímac, Perú, como una iniciativa académica y jurídica impulsada por los  abogados apurimeños comprometidos con el fortalecimiento de la justicia, la capacitación permanente y la excelencia en el ejercicio del Derecho.</div>
 								</div>
 							</div>
 
