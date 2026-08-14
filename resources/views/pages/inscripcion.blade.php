@@ -19,7 +19,7 @@
 			<div class="col-lg-6 col-md-8 col-sm-12">
 				
 				<!-- Main Registration Card -->
-				<div class="card border-0 shadow-lg rounded-4 overflow-hidden" style="border-radius: 16px; border: 3px solid #a51909ff !important;">
+				<div class="card border-0 shadow-lg rounded-4 overflow-hidden" style="border-radius: 16px; border: 3px solid var(--primary-red) !important;">
 					<div class="p-4 p-md-5 bg-white position-relative">
 						
 						<!-- Logo Header -->
@@ -32,34 +32,34 @@
 						<!-- STEP 1: Personal Data Form -->
 						<div id="step1Container">
 							<div class="text-center mb-4">
-								<h3 class="font-weight-bold" style="color: #0f1356; font-family: 'Outfit', sans-serif; font-size: 24px;">Formulario de Inscripción</h3>
+								<h3 class="font-weight-bold" style="color: var(--primary-blue); font-family: 'Outfit', sans-serif; font-size: 24px;">Formulario de Inscripción</h3>
 								<p class="text-muted" style="font-size: 14px;">Completa tus datos para continuar con el pago</p>
 							</div>
 
 							<form id="enrollmentFormStep1">
 								<div class="form-group mb-3">
 									<label for="regNombre" class="form-label fw-bold text-dark" style="font-size: 13px;">Nombres</label>
-									<input type="text" id="regNombre" class="form-control py-2 px-3" placeholder="Ingresa tus nombres" style="border-radius: 8px; border: 1px solid rgba(15, 19, 86, 0.12); background-color: #f8fafc;" required>
+									<input type="text" id="regNombre" class="form-control py-2 px-3" placeholder="Ingresa tus nombres" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
 								</div>
 								
 								<div class="form-group mb-3">
 									<label for="regApellidos" class="form-label fw-bold text-dark" style="font-size: 13px;">Apellidos</label>
-									<input type="text" id="regApellidos" class="form-control py-2 px-3" placeholder="Ingresa tus apellidos" style="border-radius: 8px; border: 1px solid rgba(15, 19, 86, 0.12); background-color: #f8fafc;" required>
+									<input type="text" id="regApellidos" class="form-control py-2 px-3" placeholder="Ingresa tus apellidos" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
 								</div>
 
 								<div class="form-group mb-3">
 									<label for="regCorreo" class="form-label fw-bold text-dark" style="font-size: 13px;">Correo Electrónico</label>
-									<input type="email" id="regCorreo" class="form-control py-2 px-3" placeholder="ejemplo@correo.com" style="border-radius: 8px; border: 1px solid rgba(15, 19, 86, 0.12); background-color: #f8fafc;" required>
+									<input type="email" id="regCorreo" class="form-control py-2 px-3" placeholder="ejemplo@correo.com" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
 								</div>
 
 								<div class="form-group mb-3">
 									<label for="regTelefono" class="form-label fw-bold text-dark" style="font-size: 13px;">Teléfono / Celular</label>
-									<input type="tel" id="regTelefono" class="form-control py-2 px-3" placeholder="987 654 321" style="border-radius: 8px; border: 1px solid rgba(15, 19, 86, 0.12); background-color: #f8fafc;" required>
+									<input type="tel" id="regTelefono" class="form-control py-2 px-3" placeholder="987 654 321" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
 								</div>
 
 								<div class="form-group mb-4">
 									<label for="regCurso" class="form-label fw-bold text-dark" style="font-size: 13px;">Especialidad de Interés</label>
-									<select id="regCurso" class="form-select py-2 px-3" style="border-radius: 8px; border: 1px solid rgba(15, 19, 86, 0.12); background-color: #f8fafc; font-size: 14px;" required>
+									<select id="regCurso" class="form-select py-2 px-3" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc; font-size: 14px;" required>
 										<option value="" disabled selected>Selecciona una opción</option>
 										<option value="CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL">CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL S/30</option>
 										<option value="DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL">DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL S/200</option>
@@ -67,7 +67,7 @@
 									</select>
 								</div>
 
-								<button type="submit" class="btn btn-gold w-100 py-3 text-uppercase font-weight-bold" style="background-color: #c5a880; color: #fff; border: none; border-radius: 30px; font-family: 'Outfit', sans-serif; font-size: 14px; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(197, 168, 128, 0.25);">
+								<button type="submit" class="btn btn-gold w-100 py-3 text-uppercase font-weight-bold" style="background-color: var(--primary-red); color: #fff; border: none; border-radius: 30px; font-family: 'Outfit', sans-serif; font-size: 14px; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(200, 16, 46, 0.3);">
 									Siguiente: Ver Medios de Pago <i class="fa-solid fa-arrow-right ms-1"></i>
 								</button>
 							</form>
@@ -76,18 +76,18 @@
 						<!-- STEP 2: Payment Methods Form -->
 						<div id="step2Container" style="display: none;">
 							<div class="text-center mb-4">
-								<span class="badge bg-light text-primary py-2 px-3 rounded-pill fw-bold" style="color: #0f1356 !important; background-color: rgba(15, 19, 86, 0.05) !important; font-size: 12px; border: 1px solid rgba(15, 19, 86, 0.1);">
+								<span class="badge bg-light text-primary py-2 px-3 rounded-pill fw-bold" style="color: var(--primary-blue) !important; background-color: rgba(13, 27, 75, 0.05) !important; font-size: 12px; border: 1px solid rgba(13, 27, 75, 0.1);">
 									Certificado por Ilustre Colegio de Abogados de Apurímac
 								</span>
-								<h3 class="font-weight-bold mt-3" style="color: #0f1356; font-family: 'Outfit', sans-serif; font-size: 24px;">Medios de Pago</h3>
+								<h3 class="font-weight-bold mt-3" style="color: var(--primary-blue); font-family: 'Outfit', sans-serif; font-size: 24px;">Medios de Pago</h3>
 								<p class="text-muted" style="font-size: 14px;">Realiza tu transferencia o pago por Yape/Plin</p>
 							</div>
 
 							<!-- Bank details list -->
-							<div class="p-3 mb-4 rounded-3 text-dark border" style="background-color: #f8fafc; border-color: rgba(15, 19, 86, 0.1) !important; font-size: 14px;">
+							<div class="p-3 mb-4 rounded-3 text-dark border" style="background-color: #f8fafc; border-color: rgba(13, 27, 75, 0.1) !important; font-size: 14px;">
 								<div class="d-flex justify-content-between mb-2">
 									<span class="text-muted fw-bold">A nombre de:</span>
-									<span class="text-end fw-bold" style="color: #0f1356;">Flor Medalith Díaz Aliaga</span>
+									<span class="text-end fw-bold" style="color: var(--primary-blue);">Flor Medalith Díaz Aliaga</span>
 								</div>
 								
 								<div class="d-flex justify-content-between align-items-center mb-2">
@@ -131,7 +131,7 @@
 
 							<!-- Action Buttons -->
 							<div class="d-flex gap-2">
-								<button type="button" class="btn btn-outline-secondary w-50 py-3 rounded-pill" id="btnBackTo1" style="border-color: rgba(15, 19, 86, 0.2); color: #0f1356; font-weight: 700; font-family: 'Outfit', sans-serif; font-size: 13px;">
+								<button type="button" class="btn btn-outline-secondary w-50 py-3 rounded-pill" id="btnBackTo1" style="border-color: rgba(13, 27, 75, 0.2); color: var(--primary-blue); font-weight: 700; font-family: 'Outfit', sans-serif; font-size: 13px;">
 									<i class="fa-solid fa-arrow-left me-1"></i> Atrás
 								</button>
 								<button type="button" class="btn btn-gold w-100 py-3 rounded-pill text-uppercase font-weight-bold" id="btnSendReceipt" style="background-color: #0ea52eff; color: #fff; border: none; font-family: 'Outfit', sans-serif; font-size: 13px; box-shadow: 0 4px 15px rgba(14, 200, 26, 0.25);">
@@ -223,7 +223,7 @@ Adjunto la captura/voucher de pago correspondiente.`;
 					text: 'Envía la captura de tu pago en el chat de WhatsApp para validar tu matrícula de inmediato.',
 					icon: 'success',
 					confirmButtonText: 'Aceptar',
-					confirmButtonColor: '#0f1356'
+					confirmButtonColor: 'var(--primary-blue)'
 				});
 			});
 		}

@@ -24,10 +24,10 @@
 						
 						<!-- Header Box -->
 						<div class="text-center mb-4">
-							<div class="d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-circle mb-3" style="width: 70px; height: 70px; background-color: rgba(15, 19, 86, 0.05) !important;">
-								<i class="fa-solid fa-graduation-cap" style="font-size: 32px; color: #0f1356;"></i>
+							<div class="d-inline-flex align-items-center justify-content-center bg-light text-primary rounded-circle mb-3" style="width: 70px; height: 70px; background-color: rgba(13, 27, 75, 0.05) !important;">
+								<i class="fa-solid fa-graduation-cap" style="font-size: 32px; color: var(--primary-blue);"></i>
 							</div>
-							<h3 class="font-weight-bold" style="color: #0f1356; font-family: 'Outfit', sans-serif;">Consulta de Validez Académica</h3>
+							<h3 class="font-weight-bold" style="color: var(--primary-blue); font-family: 'Outfit', sans-serif;">Consulta de Validez Académica</h3>
 							<p class="text-muted">Ingresa el código único de tu certificado para verificar su autenticidad y los detalles del curso.</p>
 						</div>
 
@@ -36,7 +36,7 @@
 							<div class="input-group input-group-lg" style="box-shadow: 0 4px 15px rgba(0,0,0,0.05);">
 								<span class="input-group-text bg-white border-end-0 border-2" style="border-color: #e2e8f0; border-right: none;"><i class="fa-solid fa-key text-muted"></i></span>
 								<input type="text" id="certCode" class="form-control border-start-0 border-2 py-3" placeholder="Ej: CJP-2026-001" style="border-color: #e2e8f0; border-left: none; font-weight: 600; text-transform: uppercase;" required>
-								<button type="submit" class="btn btn-gold px-4" style="background-color: #c5a880; color: #fff; font-weight: 700; border: none; font-family: 'Outfit', sans-serif;">
+								<button type="submit" class="btn btn-gold px-4" style="background-color: var(--primary-red); color: #fff; font-weight: 700; border: none; font-family: 'Outfit', sans-serif;">
 									Buscar <i class="fa-solid fa-magnifying-glass ms-1"></i>
 								</button>
 							</div>
@@ -58,7 +58,7 @@
 											</div>
 											<div class="col-sm-6">
 												<span class="text-muted d-block small">Código del Certificado</span>
-												<strong id="resCode" style="font-size: 16px; color: #0f1356;">CJP-2026-001</strong>
+												<strong id="resCode" style="font-size: 16px; color: var(--primary-blue);">CJP-2026-001</strong>
 											</div>
 											<div class="col-sm-12">
 												<span class="text-muted d-block small">Programa de Capacitación</span>

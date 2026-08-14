@@ -72,7 +72,7 @@
 		width: 36px;
 		height: 36px;
 		color: #ffffff;
-		background-color: rgba(15, 19, 86, 0.65);
+		background-color: rgba(13, 27, 75, 0.75);
 		border: none;
 		border-radius: 50%;
 		z-index: 10;
@@ -83,7 +83,7 @@
 		transition: background-color 0.3s ease;
 	}
 	.popup-nav-btn:hover {
-		background-color: rgba(197, 168, 128, 0.9);
+		background-color: var(--primary-red);
 	}
 	.popup-prev { left: 10px; }
 	.popup-next { right: 10px; }
@@ -123,7 +123,7 @@
 		left: 0 !important;
 		width: 100% !important;
 		height: 100% !important;
-		background: linear-gradient(90deg, rgba(15, 19, 86, 0.94) 0%, rgba(15, 19, 86, 0.82) 50%, rgba(15, 19, 86, 0.6) 100%) !important;
+		background: linear-gradient(90deg, rgba(13, 27, 75, 0.94) 0%, rgba(13, 27, 75, 0.82) 50%, rgba(13, 27, 75, 0.6) 100%) !important;
 		z-index: 1 !important;
 	}
 	/* Elevar el contenedor para que quede al frente del video */
@@ -295,7 +295,7 @@
 		<div class="sec-title title-anim centered">
 			<div class="sec-title_title">POR QUÉ ELEGIRNOS</div>
 			<h2 class="sec-title_heading">CORPORACIÓN JURÍDICA</h2> <br>
-			<h2 class="sec-title_heading" style="color: var(--primary-gold);">PENALITO</h2>
+			<h2 class="sec-title_heading" style="color: var(--primary-red);">PENALITO</h2>
 		</div>
 		<div class="services-one_carousel swiper-container">
 			<div class="swiper-wrapper">
@@ -358,8 +358,8 @@
 	<div class="auto-container">
 		
 		<div class="sec-title text-center mb-5">
-			<span class="sub-title text-gold text-uppercase fw-bold letter-spacing-1" style="color: #c5a880 !important; font-size: 13px; text-transform: uppercase;">Material Exclusivo</span>
-			<h2 class="sec-title_heading mt-2" style="font-size: 32px; font-weight: 700; color: #0f1356;">Biblioteca Digital y Modelos de Escritos</h2>
+			<span class="sub-title text-red text-uppercase fw-bold letter-spacing-1" style="color: var(--primary-red) !important; font-size: 13px; text-transform: uppercase;">Material Exclusivo</span>
+			<h2 class="sec-title_heading mt-2" style="font-size: 32px; font-weight: 700; color: var(--primary-blue);">Biblioteca Digital y Modelos de Escritos</h2>
 			<p class="text-muted mt-2 mx-auto" style="max-width: 650px; font-size: 15px;">
 				Accede a nuestra colección de libros digitales especializados, diccionarios y formatos de escritos listos para editar en Word y PDF. ¡Haz clic para solicitarlos!
 			</p>
@@ -471,13 +471,13 @@
 		background: #ffffff;
 		border-radius: 12px;
 		overflow: hidden;
-		box-shadow: 0 10px 25px rgba(15, 19, 86, 0.08);
+		box-shadow: 0 10px 25px rgba(13, 27, 75, 0.08);
 		border: 1px solid #e2e8f0;
 		transition: all 0.3s ease;
 	}
 	.library-card:hover {
 		transform: translateY(-5px);
-		box-shadow: 0 15px 35px rgba(15, 19, 86, 0.15);
+		box-shadow: 0 15px 35px rgba(13, 27, 75, 0.15);
 	}
 	.library-image-wrap {
 		position: relative;
@@ -503,7 +503,7 @@
 		left: 0;
 		width: 100%;
 		height: 100%;
-		background: rgba(15, 19, 86, 0.7);
+		background: rgba(13, 27, 75, 0.75);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -524,7 +524,7 @@
 		background: #ffffff;
 		border: 1px solid #e2e8f0;
 		border-radius: 50%;
-		color: #0f1356;
+		color: var(--primary-blue);
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -535,8 +535,8 @@
 	}
 	.swiper-button-prev-custom:hover,
 	.swiper-button-next-custom:hover {
-		background: #c5a880;
-		border-color: #c5a880;
+		background: var(--primary-red);
+		border-color: var(--primary-red);
 		color: #ffffff;
 	}
 	.swiper-button-prev-custom { left: 10px; }
@@ -939,32 +939,37 @@
 			<div class="swiper-wrapper">
 				<div class="swiper-slide">
 					<div class="client-image">
-						<a href="#"><img src="{{ asset('assets') }}/images/clients/6.jpeg" alt="Client 6" /></a>
+						<a href="https://spij.minjus.gob.pe" target="_blank"><img src="{{ asset('assets') }}/images/main-slider/externo1.jpeg" alt="Client 2" /></a>
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="client-image">
-						<a href="#"><img src="{{ asset('assets') }}/images/clients/2.png" alt="Client 2" /></a>
+						<a href="https://gestionsij.pj.gob.pe/sentidoFallo-web/#/busqueda" target="_blank"><img src="{{ asset('assets') }}/images/main-slider/externo2.jpeg" alt="Client 3" /></a>
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="client-image">
-						<a href="#"><img src="{{ asset('assets') }}/images/clients/3.png" alt="Client 3" /></a>
+						<a href="https://jurisprudencia.pj.gob.pe/jurisprudenciaweb/faces/page/inicio.xhtml" target="_blank"><img src="{{ asset('assets') }}/images/main-slider/externo3.jpeg" alt="Client 4" /></a>
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="client-image">
-						<a href="#"><img src="{{ asset('assets') }}/images/clients/4.png" alt="Client 4" /></a>
+						<a href="https://diariooficial.elperuano.pe/normas/normasactualizadas" target="_blank"><img src="{{ asset('assets') }}/images/main-slider/externo4.jpeg" alt="Client 5" /></a>
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="client-image">
-						<a href="#"><img src="{{ asset('assets') }}/images/clients/5.png" alt="Client 5" /></a>
+						<a href="https://casillas.pj.gob.pe/sinoe/login.xhtml" target="_blank"><img src="{{ asset('assets') }}/images/main-slider/externo5.jpeg" alt="Client 6" /></a>
 					</div>
 				</div>
 				<div class="swiper-slide">
 					<div class="client-image">
-						<a href="#"><img src="{{ asset('assets') }}/images/clients/6.jpeg" alt="Client 6" /></a>
+						<a href="https://jurisprudencia.sedetc.gob.pe/sistematizacion-jurisprudencial/busqueda/" target="_blank"><img src="{{ asset('assets') }}/images/main-slider/externo6.jpeg" alt="Client 6" /></a>
+					</div>
+				</div>
+				<div class="swiper-slide">
+					<div class="client-image">
+						<a href="https://icaapurimac.org.pe/" target="_blank"><img src="{{ asset('assets') }}/images/main-slider/externo7.jpeg" alt="Client 6" /></a>
 					</div>
 				</div>
 			</div>

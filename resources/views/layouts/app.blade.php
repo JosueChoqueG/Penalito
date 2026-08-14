@@ -68,17 +68,17 @@
 			<div class="header-upper">
 				<div class="auto-container">
 					<div class="inner-container">
-						<div class="d-flex justify-content-between align-items-center flex-wrap">
+						<div class="d-flex justify-content-between align-items-center" style="flex-wrap:nowrap; gap:0;">
 
-							<div class="logo-box d-flex align-items-center flex-wrap">
+							<div class="logo-box d-flex align-items-center">
 								<div>
 									<a href="{{ url('/') }}/">
-										<img src="{{ asset('assets') }}/images/logo_penalito.jpeg" alt="CJP Penalito Logo" style="max-height: 72px; width: auto;">
+										<img src="{{ asset('assets') }}/images/logo_penalito.jpeg" alt="CJP Penalito Logo" style="max-height: 54px; width: auto; display:block;">
 									</a>
 								</div>
 							</div>
 
-							<div class="nav-outer d-flex flex-wrap">
+							<div class="nav-outer d-flex align-items-center">
 								<!-- Main Menu -->
 								<nav class="main-menu navbar-expand-md">
 									<div class="navbar-header">

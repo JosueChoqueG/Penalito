@@ -117,7 +117,7 @@
 			</div>
 
 			<!-- Formulario de Inscripción y Pago Directo (Reemplazo de sección negra) -->
-			<div class="subscription-contact-box mt-5 p-5 rounded" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid #bfa360;">
+			<div class="subscription-contact-box mt-5 p-5 rounded" style="background-color: #f8fafc; border: 1px solid #e2e8f0; border-top: 4px solid var(--primary-red);">
 				<div class="row align-items-center">
 					<div class="col-lg-5 col-md-12 mb-4 mb-lg-0">
 						<span class="sub-title text-gold text-uppercase fw-bold" style="font-size: 13px; letter-spacing: 1px;">Inscripción Online</span>
@@ -127,14 +127,14 @@
 						</p>
 						<div class="contact-info-list mt-4">
 							<div class="d-flex align-items-center mb-3">
-								<div class="info-icon mr-3" style="font-size: 20px; color: #bfa360;"><i class="fa-solid fa-phone"></i></div>
+								<div class="info-icon mr-3" style="font-size: 20px; color: var(--primary-red);"><i class="fa-solid fa-phone"></i></div>
 								<div>
 									<span class="text-muted d-block" style="font-size: 12px; text-transform: uppercase; margin-bottom: 2px;">Llámanos</span>
 									<a href="tel:914159947" class="fw-bold" style="color: #1a253c; font-size: 16px;">914 159 947</a>
 								</div>
 							</div>
 							<div class="d-flex align-items-center">
-								<div class="info-icon mr-3" style="font-size: 20px; color: #bfa360;"><i class="fa-solid fa-envelope"></i></div>
+								<div class="info-icon mr-3" style="font-size: 20px; color: var(--primary-red);"><i class="fa-solid fa-envelope"></i></div>
 								<div>
 									<span class="text-muted d-block" style="font-size: 12px; text-transform: uppercase; margin-bottom: 2px;">Escríbenos</span>
 									<a href="mailto:corporacionjuridicapenalito@gmail.com" class="fw-bold" style="color: #1a253c; font-size: 16px; word-break: break-all;">corporacionjuridicapenalito@gmail.com</a>
@@ -235,12 +235,12 @@
 	<style>
 		/* Estilos específicos para la sección de Suscripciones */
 		.text-gold {
-			color: #bfa360 !important;
+			color: var(--primary-red) !important;
 		}
 		.btn-gold {
-			background-color: #bfa360;
+			background-color: var(--primary-red);
 			color: #fff;
-			border: 2px solid #bfa360;
+			border: 2px solid var(--primary-red);
 			font-weight: 600;
 			text-transform: uppercase;
 			font-size: 14px;
@@ -248,14 +248,14 @@
 			transition: all 0.3s ease;
 		}
 		.btn-gold:hover {
-			background-color: #a38747;
-			border-color: #a38747;
+			background-color: var(--primary-blue);
+			border-color: var(--primary-blue);
 			color: #fff;
 		}
 		.btn-outline-gold {
 			background-color: transparent;
-			color: #bfa360;
-			border: 2px solid #bfa360;
+			color: var(--primary-red);
+			border: 2px solid var(--primary-red);
 			font-weight: 600;
 			text-transform: uppercase;
 			font-size: 14px;
@@ -263,7 +263,7 @@
 			transition: all 0.3s ease;
 		}
 		.btn-outline-gold:hover {
-			background-color: #bfa360;
+			background-color: var(--primary-red);
 			color: #fff;
 		}
 		.pricing-card {
@@ -278,8 +278,8 @@
 			box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
 		}
 		.pricing-card.highlighted {
-			background-color: #172238; /* Navy Blue branding color */
-			border: 2px solid #bfa360;
+			background-color: var(--primary-blue); /* Navy Blue branding color */
+			border: 2px solid var(--primary-red);
 		}
 		.icon-wrap {
 			display: inline-block;
@@ -289,10 +289,10 @@
 			background-color: #f1f5f9;
 			border-radius: 50%;
 			font-size: 24px;
-			color: #172238;
+			color: var(--primary-blue);
 		}
 		.pricing-card.highlighted .icon-wrap {
-			background-color: rgba(191, 163, 96, 0.15);
+			background-color: rgba(200, 16, 46, 0.15);
 		}
 		.plan-name {
 			font-size: 22px;
@@ -308,7 +308,7 @@
 		.currency {
 			font-size: 20px;
 			font-weight: 600;
-			color: #bfa360;
+			color: var(--primary-red);
 			align-self: flex-start;
 			margin-top: 5px;
 		}
@@ -344,7 +344,7 @@
 			position: absolute;
 			top: 15px;
 			right: 15px;
-			background-color: #bfa360;
+			background-color: var(--primary-red);
 			color: #fff;
 			font-size: 11px;
 			font-weight: 700;
@@ -367,8 +367,8 @@
 			background-color: #fff;
 		}
 		.custom-input:focus {
-			border-color: #bfa360;
-			box-shadow: 0 0 0 3px rgba(191, 163, 96, 0.15);
+			border-color: var(--primary-red);
+			box-shadow: 0 0 0 3px rgba(200, 16, 46, 0.15);
 			outline: 0;
 		}
 
@@ -455,7 +455,7 @@ Adjunto el voucher de pago y la captura correspondiente.`;
 						text: 'Envía tu comprobante de pago por el chat para confirmar tu membresía.',
 						icon: 'success',
 						confirmButtonText: 'Aceptar',
-						confirmButtonColor: '#bfa360',
+						confirmButtonColor: 'var(--primary-red)',
 						customClass: {
 							popup: 'premium-swal-popup'
 						}
