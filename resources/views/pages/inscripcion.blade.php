@@ -38,13 +38,13 @@
 
 							<form id="enrollmentFormStep1">
 								<div class="form-group mb-3">
-									<label for="regNombre" class="form-label fw-bold text-dark" style="font-size: 13px;">Nombres</label>
-									<input type="text" id="regNombre" class="form-control py-2 px-3" placeholder="Ingresa tus nombres" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
+									<label for="regNombre" class="form-label fw-bold text-dark" style="font-size: 13px;">Nombre Completo</label>
+									<input type="text" id="regNombre" class="form-control py-2 px-3" placeholder="Ingresa tu nombre completo" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
 								</div>
 								
 								<div class="form-group mb-3">
-									<label for="regApellidos" class="form-label fw-bold text-dark" style="font-size: 13px;">Apellidos</label>
-									<input type="text" id="regApellidos" class="form-control py-2 px-3" placeholder="Ingresa tus apellidos" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
+									<label for="regDni" class="form-label fw-bold text-dark" style="font-size: 13px;">DNI</label>
+									<input type="text" id="regDni" class="form-control py-2 px-3" placeholder="Ingresa tu número de DNI" maxlength="8" pattern="[0-9]{8}" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc;" required>
 								</div>
 
 								<div class="form-group mb-3">
@@ -67,7 +67,7 @@
 									</select>
 								</div>
 
-								<button type="submit" class="btn btn-gold w-100 py-3 text-uppercase font-weight-bold" style="background-color: var(--primary-red); color: #fff; border: none; border-radius: 30px; font-family: 'Outfit', sans-serif; font-size: 14px; letter-spacing: 0.5px; box-shadow: 0 4px 15px rgba(200, 16, 46, 0.3);">
+								<button type="submit" class="btn w-100 py-3 text-uppercase font-weight-bold" style="background-color: #0d1b4b; color: #fff; border: none; border-radius: 30px; font-family: 'Outfit', sans-serif; font-size: 14px; letter-spacing: 0.5px; box-shadow: 0 4px 20px rgba(13, 27, 75, 0.35);">
 									Siguiente: Ver Medios de Pago <i class="fa-solid fa-arrow-right ms-1"></i>
 								</button>
 							</form>
@@ -196,7 +196,7 @@
 		if (btnSendReceipt) {
 			btnSendReceipt.addEventListener('click', function () {
 				const nombre = document.getElementById('regNombre').value;
-				const apellidos = document.getElementById('regApellidos').value;
+				const dni = document.getElementById('regDni').value;
 				const correo = document.getElementById('regCorreo').value;
 				const telefono = document.getElementById('regTelefono').value;
 				const curso = document.getElementById('regCurso').value;
@@ -204,8 +204,8 @@
 				const text = `Hola, acabo de realizar el pago para mi inscripción. Aquí le envío mi comprobante.
 
 Mis datos de registro son:
-- Nombres: ${nombre}
-- Apellidos: ${apellidos}
+- Nombre Completo: ${nombre}
+- DNI: ${dni}
 - Correo: ${correo}
 - Celular: ${telefono}
 - Especialidad de Interés: ${curso}
