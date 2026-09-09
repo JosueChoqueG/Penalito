@@ -62,7 +62,7 @@
 									<select id="regCurso" class="form-select py-2 px-3" style="border-radius: 8px; border: 1px solid rgba(13, 27, 75, 0.15); background-color: #f8fafc; font-size: 14px;" required>
 										<option value="" disabled selected>Selecciona una opción</option>
 										<option value="CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL">CURSO ESPECIALIZADO EN DERECHO PROCESAL PENAL S/30</option>
-										<option value="DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL">DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL S/200</option>
+										<option value="DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL">DIPLOMADO DE ALTA ESPECIALIZACIÓN EN ASISTENTE EN FUNCIÓN FISCAL Y ASISTENTE JURISDICCIONAL S/150</option>
 										<option value="II CONGRESO REGIONAL DE ABOGADOS PENALISTAS DE APURIMAC">II CONGRESO REGIONAL DE ABOGADOS PENALISTAS DE APURIMAC S/50</option>
 									</select>
 								</div>
