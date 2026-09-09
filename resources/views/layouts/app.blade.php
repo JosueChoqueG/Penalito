@@ -163,6 +163,7 @@
 													<li><a href="{{ url('/') }}/#">Derecho Procesal Penal</a></li> 
 													<li><a href="{{ url('/') }}/#">Derecho Penal</a></li> 
 													<li><a href="{{ url('/') }}/#">Derecho Policial</a></li> 
+													<li><a href="{{ url('/') }}/#">Criminalística</a></li> 
 													<li><a href="{{ url('/') }}/#">Criminologia</a></li> 
 													<li><a href="{{ url('/') }}/#">Medicina Forense</a></li> 
 													<li><a href="{{ url('/') }}/#">Miscelaneas Juridicas</a></li> 
